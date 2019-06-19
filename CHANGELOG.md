@@ -1,6 +1,10 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.3.8
+* Do not download headless Chrome if desktop Chrome is available.
+* Improve CI support.
+
 ## 1.3.7
 * More accurate `--why` (by Anton Korzunov).
 * Fix `ignore` and `peerDependencies` (by Anton Korzunov).
