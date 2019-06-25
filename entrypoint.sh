@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 
-sh -c "./cli.js $*"
+sh -c "size-limit $*"

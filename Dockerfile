@@ -10,6 +10,8 @@ LABEL com.github.actions.description="Calculate the real cost to run your JS app
 LABEL com.github.actions.icon="search"
 LABEL com.github.actions.color="red"
 
+RUN yarn global add size-limit@1.3.8
+
 COPY "entrypoint.sh" "/entrypoint.sh"
 
 ENTRYPOINT ["/entrypoint.sh"]
